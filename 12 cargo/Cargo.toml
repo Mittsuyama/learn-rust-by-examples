@@ -1,0 +1,13 @@
+[package]
+name = "foo"
+version = "0.1.0"
+authors = ["mittsuyama <1462973856@qq.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "2.27.1" # 来自 crates.io
+
+# 就不尝试下面这个了，太慢了。
+# rand = { git = "https://github.com/rust-lang-nursery/rand" } # 来自网上的仓库
