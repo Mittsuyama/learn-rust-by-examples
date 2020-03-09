@@ -14,7 +14,7 @@ fn main() {
 
     // vector 的类型推断，一开始并不知道内容是什么类型，从后面的代码中推断类型
     let mut vec = Vec::new();
-    vec.push(decimal);
+    vec.push(0.2);
     println!("vector: {:?}", vec);
 
     let alias_variable: Integer = 4343.56654 as i32;
