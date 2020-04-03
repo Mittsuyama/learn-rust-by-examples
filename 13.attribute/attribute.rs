@@ -27,7 +27,7 @@ fn unused_function() {}
 
 // 当这个系统不是 Linux 时才会编译（是某个系统去掉 not 即可）
 #[cfg(not(target_os = "linux"))]
-fn _not_linux_functio() {}
+fn _not_linux_function() {}
 
 fn main() {
     if cfg!(tartget_os = "linux") {
